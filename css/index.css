@@ -1,0 +1,85 @@
+body {
+	background-color: #eee;
+	color: #111;
+	font-family: courier new;
+	min-width: 200px;
+}
+
+hr {
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+
+label {
+	width: 20%;
+	display: inline-block;
+	text-align: right;
+}
+input, textarea, select {
+	width: 30%;
+	border: none;
+	border: 1px solid #ccc;
+	padding: 3px;
+	margin: 3px;
+}
+input.button {
+	width: 100%;
+	background-color: #ccc;
+}
+input.confirm {
+	background-color: #c00;
+	width: 30px;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+}
+span.description {
+	font-size: 10px;
+}
+form.two_column_full label {
+	width: 20%;
+}
+form.two_column_full select, form.two_column_full input, form.two_column_full textarea {
+	width: 75%;
+}
+
+table {
+	width: 100%;
+	border: 1px solid #ccc;
+}
+table.financial {
+	font-family: arial;
+	font-size: 10px;
+}
+td, th {
+	text-align: left;
+	padding: 1px;
+	margin: 0px;
+	border-bottom: 1px solid #ccc;
+}
+table tfoot tr td {
+	background-color: #ccc;
+	font-weight: bold;
+}
+th {
+	background-color: #ccc;
+}
+tr {
+
+}
+
+table#model_list {
+	font-size: 8px;
+}
+
+div.log {
+	padding: 3px;
+	border: 1px solid #f00;
+	background-color: #F0E68C;
+	font-family: courier new;
+	font-size: 8px;
+}
+
+p#fx_rates {
+	font-size: 9px;
+}
